@@ -209,7 +209,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover,
@@ -347,7 +347,7 @@ img {
   justify-content: center;
   width: 40px;
   height: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -467,7 +467,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -522,6 +522,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
@@ -531,7 +532,7 @@ img {
 
 .closed:hover,
 .closed:focus {
-  background-color: var(--click-color);
+  background-color: #404bbf;
   border: none;
 }
 
@@ -541,7 +542,7 @@ img {
 
 .closed-icon:hover,
 .closed-icon:focus {
-  fill: var(--white-color);
+  fill: #ffffff;
 }
 
 /* portfolio page start here */

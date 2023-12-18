@@ -213,7 +213,7 @@ img {
 
 .main-button:hover,
 .main-button:focus {
-  background-color: var(--click-color);
+  background-color: #404bbf;
 }
 
 .core-ul,
